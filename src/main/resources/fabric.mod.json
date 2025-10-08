@@ -3,15 +3,15 @@
 	"id": "training",
 	"version": "${version}",
 	"name": "Training",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "KarameterZ's Training Mod",
 	"authors": [
-		"Me!"
+		"KarameterZ"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "All Rights Reserved",
 	"icon": "assets/training/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,7 +20,11 @@
 		],
 		"fabric-datagen": [
 			"net.karameterz.training.TrainingDataGenerator"
-		]
+		],
+        "client": [
+            "net.karameterz.training.TrainingClient"
+        ]
+
 	},
 	"mixins": [
 		"training.mixins.json"
